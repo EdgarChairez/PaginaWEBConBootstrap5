@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+/* MENU */
+#menu li > a{                                   /* li > a - Se refiere a los enlaces(a) que estan dentro de los li que pertenecen a menu */
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+#menu form > button{                            /* form > button - Se refiere al boton que estan dentro del form que pertenecen a menu */
+    font-size: 18px;
+    font-weight: bold;
+}
+/* MENU */
