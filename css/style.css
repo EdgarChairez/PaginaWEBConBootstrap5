@@ -24,8 +24,19 @@ body{
 }
 /* IMAGENES SLIDERS */
 
-@media (max-whidth: 768px){
+@media (max-width: 768px){
     #intro{
         width: 90% !important;
+    }
+    .servicios-fila{
+        width: 100% !important;
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
     }
 }
