@@ -22,5 +22,10 @@ body{
 .carousel-inner{
     max-height: 25rem;
 }
-
 /* IMAGENES SLIDERS */
+
+@media (max-whidth: 768px){
+    #intro{
+        width: 90% !important;
+    }
+}
