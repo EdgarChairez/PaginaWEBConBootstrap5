@@ -17,3 +17,10 @@ body{
     font-weight: bold;
 }
 /* MENU */
+
+/* IMAGENES SLIDERS */
+.carousel-inner{
+    max-height: 25rem;
+}
+
+/* IMAGENES SLIDERS */
