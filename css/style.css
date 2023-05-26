@@ -37,6 +37,10 @@ body{
         width: 100% !important;
         text-align: center;
     }
+    
+    #bgContacto{
+        top: -110px !important;
+    }
 }
 
 @media (max-width: 576px){
@@ -44,12 +48,9 @@ body{
         flex-wrap: wrap;
         justify-content: center !important;
     }
-}
-
-.mapa{
-    background: url("../img/mapa.PNG");
-    width: 100%;
-    height: 500px;
+    #bgContacto{
+        top: -105px !important;
+    }
 }
 
 @media (max-width: 1200px){
@@ -63,6 +64,12 @@ body{
         margin-top: auto;
         padding-top: 50px;
     }
+}
+
+.mapa{
+    background: url("../img/mapa.PNG");
+    width: 100%;
+    height: 500px;
 }
 
 #local{
@@ -83,12 +90,49 @@ body{
     height: 48px;
 }
 
-#numerosLocal div:not(:last-child){
+#numerosLocal div:not(:last-child){                                     /* Se aplica a todos los div dentro de numerosLocal excepto al ultimo */
     border-right: 2px solid #3f3f3f;
 }
-#numerosLocal div:not(:first-child){
+#numerosLocal div:not(:first-child){                                     /* Se aplica a todos los div dentro de numerosLocal excepto al primero */
     padding-left: 20px;
 }
 #numerosLocal p{
     margin: 0;
+}
+
+#bgContacto{
+    position: relative;
+    top: -130px;
+}
+#seccionContacto{
+    background-color: #1b2a4e;
+    min-height: 500px;
+    position: relative;
+}
+
+#contenidoFormulario{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius: 5px;
+    max-width: 500px;
+}
+
+#tituloFormulario{
+    color: #3f3f3f;
+}
+
+footer{
+    background: #1b2a4e;
+    min-height: 100px;
+}
+footer p{
+    color: #f3f3f3;
+}
+#iconos{
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3;
 }
